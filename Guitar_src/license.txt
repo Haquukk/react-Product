@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fender Stratocaster Guitar Blue
+* source:	https://sketchfab.com/3d-models/fender-stratocaster-guitar-blue-96a79610434f43b2ac2a09a636afc5d4
+* author:	YieldingMist206 (https://sketchfab.com/YieldingMist206)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fender Stratocaster Guitar Blue" (https://sketchfab.com/3d-models/fender-stratocaster-guitar-blue-96a79610434f43b2ac2a09a636afc5d4) by YieldingMist206 (https://sketchfab.com/YieldingMist206) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
