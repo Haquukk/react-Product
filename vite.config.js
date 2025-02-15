@@ -5,6 +5,9 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
     plugins: [react()],
     base: "/react-Product/",
+    optimizeDeps: {
+      exclude: ["@react-spring/three"], // Hindari tree-shaking yang merusak
+    },
     optimization: {
         splitChunks: {
             chunks: "all",
