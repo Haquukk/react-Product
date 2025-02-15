@@ -1,11 +1,11 @@
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import { About, Hero, LoadingScreen, Navbar, Works, Conclusion } from './Components'
 
 
 const App = () => {
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className=' relative z-0 bg-gradient-to-b from-[#052222] to-black overflow-x-clip '>
 
         <div className=' bg-gradient-to-b from-[#2c4c82]'>
@@ -29,7 +29,7 @@ const App = () => {
 
       {/* progress 99% >> */}
       <LoadingScreen /> 
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
