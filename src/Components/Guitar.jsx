@@ -7,9 +7,8 @@ Source: https://sketchfab.com/3d-models/fender-stratocaster-guitar-blue-96a79610
 Title: Fender Stratocaster Guitar Blue
 */
 
-import React, { useRef, forwardRef } from 'react'
+import React, { forwardRef } from 'react'
 import { useGLTF } from '@react-three/drei'
-import { useFrame, useThree } from '@react-three/fiber'
 
 export const Guitar = forwardRef(({ children, ...props }, ref) => {
   const { nodes, materials } = useGLTF('./Guitar_src/scene.gltf')
