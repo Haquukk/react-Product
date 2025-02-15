@@ -5,30 +5,4 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
     plugins: [react()],
     base: "/react-Product/",
-    optimizeDeps: {
-      exclude: ["@react-spring/three"], // Hindari tree-shaking yang merusak
-    },
-    optimization: {
-        splitChunks: {
-            chunks: "all",
-            minSize: 20000,
-            maxSize: 500000,
-        },
-    },
-    build: {
-        chunkSizeWarningLimit: 1000, // limit dalam kilobytes (KB)
-        rollupOptions: {
-            output: {
-                manualChunks(id) {
-                    if (id.includes("node_modules")) {
-                        return id
-                            .toString()
-                            .split("node_modules/")[1]
-                            .split("/")[0]
-                            .toString();
-                    }
-                },
-            },
-        },
-    },
 });
